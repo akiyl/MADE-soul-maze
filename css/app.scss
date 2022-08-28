@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MADE Soulmaze Regular';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.head1 {
+    /* height: 74px; */
+    /* background-color: white; */
+    padding: 20px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    font-weight: 800;
+    color: #003049;
+    position: absolute;
+    top: 43%;
+    font-size: 24px;
+    /* border: 2px solid; */
+    z-index: 3;
+}
+
+@import 'header';
+@import 'main';
+.head3 {
+    width: 285px;
+    text-align: center;
+    font-weight: 900;
+    margin: 50px 0 0 25px;
+    font-size: 32px;
+    background-color: white;
+}
+
+.contact_info {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    color: #F77F00;
+}
+
+input {
+    height: 35px;
+    width: 290px;
+    border: none;
+    background-color: #F8F8F8;
+    padding: 0 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    z-index: 1;
+}
+
+.message {
+    margin: 33px;
+}
+
+textarea {
+    border: none;
+    background-color: #F8F8F8;
+    width: 290px;
+    resize: none;
+}
+
+#contact_bg {
+    position: absolute;
+    height: 815px;
+    top: 192%;
+    width: fit-content;
+}
+
+.name,
+.email {
+    margin-top: 40px;
+}
+
+button {
+    padding: 2px 15px;
+    font-size: 24px;
+    border-style: none;
+    font-weight: 900;
+    color: white;
+    background-color: #003049;
+    margin: 0 210px 30px 0;
+}
+
+.credits {
+    margin-top: 195px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cpyrt {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#links {
+    display: flex;
+    gap: 0.3em;
+    line-height: 75px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+}
+
+#copyright_icon {
+    height: 23px;
+    width: 23px;
+    margin-bottom: -5px;
+}
+
+@import 'navbar';
+#Ellipse2 {
+    position: absolute;
+    top: 30px;
+    right: 63px;
+}
+
+#Ellipse3 {
+    position: absolute;
+    top: 35px;
+    right: 67px;
+}
+
+#Ellipse4 {
+    position: absolute;
+    top: 25px;
+    right: 58px;
+}
+
+#polygon {
+    height: 70px;
+}
+
+#semi {
+    position: absolute;
+    top: -9px;
+    right: -32px;
+    left: 74px;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    color: #5893B1;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    /*   display: inline-block; */
+    padding: 15px 20px;
+    position: relative;
+}
+
+a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #F77F00;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover::after {
+    width: 100%;
+    left: 0;
+    color: #003049;
+}
+
+a:hover {
+    color: #003049;
+}
+
+@import 'background';
+.line {
+    height: 4px;
+    background-color: #F77F00;
+    margin-left: 556px;
+    width: 280px;
+}
+
+.red {
+    fill: #D62828;
+}
+
+.white {
+    stroke: white;
+}
+
+@media screen and (min-width:1440px) {
+    .header {
+        width: 100%;
+    }
+    .container {
+        overflow: hidden;
+    }
+    #background1 {
+        height: 110%;
+        width: fit-content;
+    }
+    .main {
+        position: sticky;
+        z-index: 2;
+    }
+    .header {
+        height: 650px
+    }
+    #head_scene {
+        left: 67%;
+        height: 350px;
+    }
+    .head1 {
+        width: 1100px;
+        font-size: 55px;
+    }
+    .head2 {
+        text-align: center;
+        font-size: 40px;
+    }
+    .person_info {
+        display: flex;
+        margin-left: 120px;
+    }
+    .txt {
+        align-self: flex-end;
+        padding: 30px;
+    }
+    .slt_moto,
+    .slt_moto2 {
+        font-size: 36px;
+        width: 430px;
+    }
+    #depat,
+    #depat2 {
+        font-size: 28px;
+    }
+    .person_info2 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 150px 50px 0;
+    }
+    .contact {
+        align-items: flex-start;
+        padding: 100px;
+    }
+    textarea {
+        width: 485px;
+    }
+    input {
+        width: 480px;
+    }
+    .contact_info {
+        font-size: 20px;
+    }
+    #email_pic {
+        height: 500px;
+        top: 215%;
+        left: 55%;
+    }
+    .nav_bar {
+        width: fit-content;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+    #nav_content {
+        text-align: end;
+        font-size: 28px;
+        line-height: 100px;
+        width: 30vw;
+        height: 100vh;
+    }
+    #nav_img {
+        visibility: visible;
+    }
+}

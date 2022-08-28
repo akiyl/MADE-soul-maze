@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    height: 550px;
+    background-color: white;
+}
+
+#imp {
+    text-decoration: underline;
+}
+
+#background1 {
+    position: absolute;
+    height: 550px;
+    top: 0;
+}
+
+#head_scene {
+    height: 290px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 2;
+}

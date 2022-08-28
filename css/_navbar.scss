@@ -1,0 +1,59 @@
+.nav_bar {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav_btn {
+    position: absolute;
+}
+
+#nav_content {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    /* padding: 15px 0 0 140px; */
+    text-align: center;
+    line-height: 35px;
+    margin-top: 92px;
+    transition: all 0.3s ease-in-out;
+}
+
+#ellipse1 {
+    position: absolute;
+    top: 29px;
+    right: 74px;
+    stroke: #D62828;
+}
+
+#ellipse2 {
+    position: absolute;
+    top: 33px;
+    right: 77px;
+    stroke: #D62828;
+}
+
+#ellipse3 {
+    position: absolute;
+    top: 25px;
+    right: 68px;
+    stroke: #D62828;
+}
+
+#polygon {
+    color: white;
+}
+
+#nav_img {
+    height: 315px;
+    margin-right: 26px;
+    position: absolute;
+    right: 30px;
+    top: 535px;
+    visibility: hidden;
+}
