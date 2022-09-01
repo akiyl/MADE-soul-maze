@@ -1,5 +1,5 @@
 const navMenu = document.querySelector('.nav_btn')
-const semi = document.querySelector('#semi')
+
 const content = document.querySelector('#nav_content')
 const polygon = document.querySelector('#polygon')
 const ellipse1 = document.querySelector('#path_elp1')

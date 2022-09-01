@@ -286,6 +286,10 @@ button {
   visibility: hidden;
 }
 
+a {
+  transition: all 0.3s ease-in-out;
+}
+
 #Ellipse2 {
   position: absolute;
   top: 30px;
@@ -431,8 +435,7 @@ a:hover {
     font-size: 36px;
     width: 430px;
   }
-  #depat,
-#depat2 {
+  #depat #depat2 {
     font-size: 28px;
   }
   .person_info2 {
